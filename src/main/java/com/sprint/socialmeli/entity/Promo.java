@@ -8,8 +8,9 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Promo {
-
-    private Post post;
+    private int id;
+    private int postId;
+    private int sellerId;
     private boolean hasPromo;
     private double discount;
 }

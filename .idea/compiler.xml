@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="socialmeli" />
+        <module name="be_java_hisp_w26_g06_ambricca" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="be_java_hisp_w26_g06_ambricca" options="-parameters" />
       <module name="socialmeli" options="-parameters" />
     </option>
   </component>

@@ -1,14 +1,11 @@
 package com.sprint.socialmeli.dto.post;
 
-import lombok.Data;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 
 @Getter
 public class PromoDTO extends PostDTO implements Serializable {
-
     private boolean has_promo;
     private double discount;
 
